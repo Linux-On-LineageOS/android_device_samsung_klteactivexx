@@ -40,3 +40,4 @@ PRODUCT_COPY_FILES += \
 
 # common klte
 $(call inherit-product, device/samsung/klte-common/klte.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
